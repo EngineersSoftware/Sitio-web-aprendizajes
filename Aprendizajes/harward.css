@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #0a0a0a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(to right, hsla(246, 57%, 10%, 0.867), hsla(244, 38%, 28%, 0.624), #0a0a0ada), url(hardware-1170x780.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    z-index: 1000;
+    background-color: #0a0a0a;
+    border-bottom: 1px solid #ffffff29;
+    padding: 10px 20px; /* Ajusta el espaciado vertical y horizontal */
+    border-radius: 15px; /* Redondea los ángulos de la barra */
+     /* Ajusta la longitud de la barra al contenido */
+    margin: 0 auto; /* Centra la barra horizontalmente */
+}
+
+.logo {
+    text-align: center;    /* Centra el texto dentro del enlace */
+    font-size: 24px;       /* Ajusta el tamaño del texto si es necesario */
+    color: #be6161;           /* Ajusta el color del texto si es necesario */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.logo:hover {
+    color: #20cedb;        /* Cambia el color del texto al pasar el ratón si es necesario */
+}
+
+
+
+.logo{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+
+
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #5c9ecb;
+}
+
+#menu{
+    display: none;
+}
+
+menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    display: none;
+    cursor: pointer;
+}
+
+.header-info h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.header-info p{
+    color: #ffffff;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 10px;
+    background-color: #000000;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.btn-1:hover{
+    background-color: #2d2d2d;
+}
+
+/* Estilos para centrar y organizar el contenido */
+.gym-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias líneas si es necesario */
+    gap: 20px; /* Añade espacio entre los elementos */
+    margin: 20px; /* Añade espacio alrededor del contenedor */
+}
+
+.gym-1, .gym-2 {
+    flex: 1; /* Los elementos ocuparán el mismo espacio */
+    min-width: 100px; /* Ancho mínimo para los elementos, ajusta según sea necesario */
+    max-width: 450px; /* Ancho máximo para los elementos, ajusta según sea necesario */
+    padding: 20px; /* Espaciado interior de los elementos */
+    box-sizing: border-box; /* Incluye el padding dentro del ancho y alto */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 50%; /* Centra el texto dentro de los elementos */
+}
+
+.gym-1 h2 {
+    margin-bottom: 10px; /* Espacio debajo del encabezado */
+    color: #ffffff;
+    text-align: center;
+}
+
+.gym-1 p {
+    margin-bottom: 20px; /* Espacio debajo del párrafo */
+    color: #818181;
+    width: 50;
+    text-align: justify;
+}
+
+.gym-2 img {
+    width: 100%; /* Asegura que las imágenes no se desborden del contenedor */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    margin-bottom: 10px; /* Espacio debajo de las imágenes */
+}
+
+.gym-1 span{
+    color: #5c9ecb;
+    text-align: center;
+}
+
+
+
+
+
+
+footer{
+    background: #171414;
+    padding: 60px 0  30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc ;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo{
+    color: #5c9ecb;
+    border-bottom: 3px solido #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #5c9ecb;
+}
+
+/* Responsive adjustments */
+@media (max-width:991px) {
+    .header-content{
+        padding: 30px;
+    }
+
+    .header-info h1{
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    .gym-1, .gym-2 {
+        min-width: 100%;
+        margin: 5px 0;
+      }
+    
+
+
+    .contenedor-footer {
+    flex-direction: column; /* Cambiar el layout a columna en pantallas más pequeñas */
+    }
+
+    .content-foo {
+    margin-bottom: 10px;
+    }
+}
