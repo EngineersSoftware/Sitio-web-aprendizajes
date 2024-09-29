@@ -10,16 +10,31 @@
 <body>
     <header>
         <div class="header-content">
-            <h1>Tutorial de Git</h1>
+            <h1>Tutorial de Git y GitHub</h1>
             <a href="index.html" class="main-button">Página Principal</a>
         </div>
-        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-36.30,17.42 C311.89,186.68 380.73,-19.40 501.50,37.34 L506.02,156.81 L-21.63,162.79 Z" style="stroke: none; fill: #f0f0f0;"></path></svg></div>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+              <defs>
+                <linearGradient id="waveGradient" gradientTransform="rotate(45)">
+                  <stop offset="0%" stop-color="#ff8c00" />
+                  <stop offset="50%" stop-color="#ff8c00" />
+                  <stop offset="90%" stop-color="#ff8c00" />
+                </linearGradient>
+              </defs>
+              <path d="M-36.30,17.42 C311.89,186.68 380.73,-19.40 501.50,37.34 L506.02,156.81 L-21.63,162.79 Z" fill="url(#waveGradient)" />
+            </svg>
+          </div>
     </header>
     
     <div class="content">
         <div class="youtube-container">
-            <h2>Video Tutorial</h2>
-            <iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Video Tutorial de Git y GitHub</h2>
+            <iframe src="https://www.youtube.com/embed/NLFu1iqP8aw" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+
         </div>
 
         <div class="spiral-container">
@@ -80,5 +95,23 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Facultad</h4>
+                <p>Ingeniería de Ciencias Agropecuarias</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>andres.hernandez74@est.iudigital.edu.co</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Buriticá-Antioquia</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Andres Miguel Hernandez Castro</h2>
+    </footer>
+    
 </body>
 </html>
